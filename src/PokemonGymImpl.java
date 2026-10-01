@@ -1,8 +1,18 @@
-import java.util.List;
+import Pokemon.Pokemon;
+import Pokemon.PokemonGym;
+import Pokemon.WaterPokemon;
+import Pokemon.FirePokemon;
+import Pokemon.GrassPokemon;
+import Pokemon.ElectricPokemon;
+
+
+import Person.PokemonGymOwner;
+import Person.PokemonTrainer;
+
+import java.util.*;
 
 // Los in deze klasse alle foutmeldingen op door (abstracte) klassen met variabelen en methodes te maken en een interface met methodes (en soms een import).
 public class PokemonGymImpl implements PokemonGym {
-
 
     List<Pokemon> pokemons;
 
