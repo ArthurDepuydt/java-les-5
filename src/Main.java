@@ -1,3 +1,11 @@
+import Pokemon.FirePokemon;
+import Pokemon.WaterPokemon;
+import Pokemon.GrassPokemon;
+import Pokemon.ElectricPokemon;
+import Pokemon.Pokemon;
+
+import Person.PokemonTrainer;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -37,7 +45,6 @@ public class Main {
         if (speler_A.nextLine().equals("yes")) {
             pokemonGym.enteredTheGym(player1);
         }
-
     }
 
 
